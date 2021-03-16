@@ -1,14 +1,13 @@
-<?php
-  session_start();
-?>
+<!DOCTYPE html>
 <html>
-<body>
-  <h1>ユーザー情報登録</h1>
-  <form action="xss_confirm.php" method="get">
-    名前:<input type="text" name="name"><br/>
-    URL:<input type="text" name="url"><br/>
-    <input type="submit" value="確認">
-    <input type="reset" value="リセット">
-  </form>
-</body>
+    <head>
+        <title>Example</title>
+    </head>
+    <body>
+
+        <?php
+            echo "Hi, I'm a PHP script!";
+        ?>
+
+     </body>
 </html>
